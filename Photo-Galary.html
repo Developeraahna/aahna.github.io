@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monuments of India</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="cssnjs/nav-styles.css">
+<link rel = "icon" href = "https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg" type = "image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!---navbar--->
+
+        <nav class="navbar">
+            <div class="logo"><orange>monuments</orange> <blue>of</blue> <green>india</green></div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active">photo galary</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+
+<script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script> 
+
+<!---photo gallery--->
+<div class="outer-grid">
+
+  <div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+<div class="inner-grid">
+<!--3--><img src="https://i.pinimg.com/564x/dc/34/53/dc3453bca98934e454ded1dac5779e4e.jpg"/>
+<!--4--><img src="https://www.conserve-energy-future.com/wp-content/uploads/2021/01/nail-polish-bottles.jpg"/>
+</div>
+<div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+<div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+</div>
+
+<div class="outer-grid">
+
+  <div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+<div class="inner-grid">
+<!--3--><img src="https://i.pinimg.com/564x/dc/34/53/dc3453bca98934e454ded1dac5779e4e.jpg"/>
+<!--4--><img src="https://www.conserve-energy-future.com/wp-content/uploads/2021/01/nail-polish-bottles.jpg"/>
+</div>
+<div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+<div class="inner-grid">
+<!--1--><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPHqpy7iSprC96m5xUXELL_RM_an4rBiSBQ&usqp=CAU"/>
+<!--2--><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/28/elle-short-nail-art-negative-daisies.jpg?crop=1xw:1.0xh;center,top&resize=480:*"/>
+</div>
+</div>
+
+</body>
+
+</html>
