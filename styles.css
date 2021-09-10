@@ -44,17 +44,12 @@ green{
   color: black;
   display: block;
 }
-
-/*    <a href="#Taj Mahal">Taj Mahal</a>
-    <a href="#Bibi ka Maqbara">Bibi ka Maqbara</a>
-    <a href="#Akbar's tomb">Akbar's tomb</a>
-    <a href="#Itmad ud Daulah">The mausoleum of Itimad ud Daulah</a>
     
     
 .sidenav li:hover {
   color: #2E283F;
 }
-*/
+
 
 
 @media screen and (max-height: 450px) {
