@@ -23,7 +23,7 @@
     width: 100%;
     background-color: white;
     margin-top: 0%;
-    border-bottom: 1px solid black;
+    bottom-border: 1px solid black;
 }
 
 .hamburger {
