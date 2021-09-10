@@ -135,6 +135,35 @@ tr:nth-child(odd) {
  
 }
 }
+/*photo gallery*/
+* {
+   box-sizing: border-box;
+}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+   width: 100%;
+   margin-top: 50px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 px;
+   overflow: hidden;
+}
+.inner-grid img {
+   margin-top: 5px;
+   width: 100%;
+   padding: 5px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+/*photo gallery-end*/
 
 
 
