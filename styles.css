@@ -136,7 +136,7 @@ tr:nth-child(odd) {
 }
  .sidenav {
  width: 80%;
- margin-left: -20px; !important
+ margin-left: -10px; 
  margin-top: 30%;}
  
 }
