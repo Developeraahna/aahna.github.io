@@ -21,6 +21,7 @@
     position: fixed;
     z-index: 2;
     width: 100%;
+    height: auto;
     background-color: white;
     margin-top: 0%;
 }
