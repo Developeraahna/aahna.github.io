@@ -172,22 +172,22 @@ input[type=radio] + label {
  width:95%;
  padding:10px;
  border:1px solid #ddd;
- margin-bottom:10px;
- cursor:pointer;
+ margin-bottom: 10px;
+ cursor: pointer;
 }
 input[type=radio] + label:hover{ border:1px solid #000000;}
-input[type=radio]:checked + label  { 
+input[type=radio]:checked + label { 
    background-image: none;
-   background-color:#0C0;
- color:#fff;
- border:1px solid #0C0 !important;
+   background-color:#00B4AB;
+ color:black;
+ border:1px solid #00B4AB !important;
  -webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
 -ms-transition: all 0.2s ease-in-out;
 transition: all 0.2s ease-in-out;
 }
-.worngans{ background-color:#F36;color:#fff; border:1px solid #F36 !important;-webkit-transition: all 0.2s ease-in-out;
+.worngans{ background-color:#D91E4C;color:black; border:1px solid #D91E4C !important;-webkit-transition: all 0.2s ease-in-out;
 -moz-transition: all 0.2s ease-in-out;
 -o-transition: all 0.2s ease-in-out;
 -ms-transition: all 0.2s ease-in-out;
@@ -199,6 +199,9 @@ transition: all 0.2s ease-in-out;}
   margin-right: 10%;
   position: relative;
 }
+.scp-quizzes-data h3{
+ overflow: hidden;}
+ 
 @media only screen and (max-width: 650px) {
 .scp-quizzes-data{
   margin-top: 20%;}
@@ -207,8 +210,17 @@ transition: all 0.2s ease-in-out;}
 .scp-quizzes-data{
   margin-top: 25%;}
   }
-
-
+.modal-body, .modal-title{
+  color: black;}
+  
+.btn{
+  padding: 0;
+}
+.btn-mytype{
+  background-color: #FFD931;
+  padding: 7px;
+  border: 0;
+  }
 
 
 
