@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-   font-family: 'Poppins', sans-serif;
+   font-family: poppins light;
    margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +14,17 @@ green{
    color: #7BB839}
 .logo2 {
     font-size: 15px;
-    color: #A44B44;
+    color: #006B66;
+    font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
-       margin-top: 30px;
+    margin-top: 30px;
    margin-left: 40px;
-   margin-bottom: 10px
+   margin-bottom: 10px;
+    -webkit-text-decoration: #006B66 solid underline;
+  text-decoration: #006B66 2px solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
 }
 
 
@@ -74,7 +78,8 @@ green{
 .main-column {
   margin-left: 13px;
   padding: 0px 10px;
-  text-align: justify;
+  text-align: ;
+  word-spacing: 8px;
 }
 .main-column li {
   list-style: circle;
@@ -117,7 +122,7 @@ tr:nth-child(odd) {
 }
  .side-column {
   float: left;
-  margin-left: 0px;
+  margin-left: 30px;
 }
   .side-column img {
  float: right;
@@ -135,6 +140,7 @@ tr:nth-child(odd) {
  
 }
 }
+
 /*photo gallery*/
 * {
    box-sizing: border-box;
@@ -153,10 +159,12 @@ tr:nth-child(odd) {
    overflow: hidden;
 }
 .inner-grid img {
-   margin-top: 5px;
    width: 100%;
-   padding: 5px;
+   padding: 2px;
+   margin-bottom: 3px;
+   z-index: 2;
 }
+
 @media screen and (max-width: 800px) {
    .inner-grid {
       flex: 50%;
@@ -164,6 +172,7 @@ tr:nth-child(odd) {
    }
 }
 /*photo gallery-end*/
+
 input[type=radio] {
     display:none; 
 }
@@ -215,16 +224,26 @@ transition: all 0.2s ease-in-out;}
   
 .btn{
   padding: 0;
+  width:95%;
+  text-align: left;
 }
 .btn-mytype{
   background-color: #FFD931;
   padding: 7px;
   border: 0;
-  }
-
-
-
-
-
+}
+h1{
+   margin-left: 10%;
+   margin-top: 5%;
+   margin-bottom: 2%;}
+u{
+   -webkit-text-decoration: slateblue solid underline;
+  text-decoration: #00B4AB 2px solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  color: #006B66;
+  font-weight: bold;}
+li{
+   margin-bottom: 6px;}
 
 
