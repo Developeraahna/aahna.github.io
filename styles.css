@@ -119,6 +119,8 @@ tr:nth-child(odd) {
   }
  .sidenav {
   margin-top: 20%;
+  margin-left: 10px;
+  width: 90%;  
 }
  .side-column {
   float: left;
@@ -129,12 +131,6 @@ tr:nth-child(odd) {
  .side-column {
   width: 100%;
   margin-left: 0px; !important
-}
- .sidenav {
- width: 100%;
- margin-left: 10px; 
- margin-top: 30%;}
- 
 }
 }
 
