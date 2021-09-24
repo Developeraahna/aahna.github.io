@@ -81,11 +81,10 @@ green{
   text-align: ;
   word-spacing: 8px;
 }
-.main-column li {
-  margin-left: 10px;
-  overflow: visible;
-  color: black;
-  z-index: 2;
+.main-column ul {
+  margin:0; 
+  padding:0; 
+  list-style-type: circle;
 }
 .side-column img {
  width: 100%;
