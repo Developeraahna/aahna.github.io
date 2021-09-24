@@ -168,7 +168,7 @@ input[type=radio] + label {
  width:95%;
  padding:10px;
  border:1px solid #ddd;
- margin-bottom: 10px;
+ margin-bottom: 0px;
  cursor: pointer;
 }
 input[type=radio] + label:hover{ border:1px solid #000000;}
