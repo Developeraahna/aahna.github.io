@@ -81,10 +81,11 @@ green{
   text-align: ;
   word-spacing: 8px;
 }
-.main-column ul li {
+.main-column li {
   margin-left: 10px; 
   padding:0; 
   list-style-type: circle;
+   color: black;
 }
 .side-column img {
  width: 100%;
