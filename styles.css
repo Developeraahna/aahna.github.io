@@ -81,8 +81,8 @@ green{
   text-align: ;
   word-spacing: 8px;
 }
-.main-column ul {
-  margin:0; 
+.main-column ul li {
+  margin-left: 10px; 
   padding:0; 
   list-style-type: circle;
 }
