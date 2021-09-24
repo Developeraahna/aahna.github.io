@@ -82,8 +82,7 @@ green{
   word-spacing: 8px;
 }
 .main-column li {
-  list-style: circle;
-  margin-left: 1.5em;
+  margin-left: 10px;
   overflow: visible;
   color: black;
   z-index: 2;
