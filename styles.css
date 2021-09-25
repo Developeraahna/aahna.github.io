@@ -22,10 +22,19 @@ green{
     margin-top: 30px;
    margin-left: 40px;
    margin-bottom: 10px;
-    -webkit-text-decoration: #006B66 solid underline;
-  text-decoration: #006B66 2px solid underline;
-  -webkit-text-underline-position: under;
-  text-underline-position: under;
+  .logo2 {
+    font-size: 15px;
+    color: #006B66;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+   margin-left: 40px;
+   margin-bottom: 10px;
+  color: #D0807C;
+  font-size: 20px;
+  font-weight: bold;
+}
 }
 
 
@@ -231,20 +240,18 @@ h1{
    margin-top: 5%;
    margin-bottom: 2%;}
 u{
-   -webkit-text-decoration: slateblue solid underline;
-  text-decoration: #00B4AB 2px solid underline;
+   -webkit-text-decoration: #007693 solid underline;
+  text-decoration: #007693 2px solid underline;
   -webkit-text-underline-position: under;
   text-underline-position: under;
-  color: #006B66;
+  color: #007693;
   font-weight: bold;}
 u2{
-   -webkit-text-decoration: #FE7C00 solid underline;
-  text-decoration: #FE7C00 2px solid underline;
-  -webkit-text-underline-position: under;
-  text-underline-position: under;
-  color: #FE7C00;
-  font-size: 30px;
+  color: #001B55;
+  font-size: 20px;
   font-weight: bold;}
+
+
 
 
 
