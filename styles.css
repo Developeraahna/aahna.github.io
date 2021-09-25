@@ -25,16 +25,18 @@ green{
 }
 
 
-.sidenav {
-  width: 50%;
-  position: relative;
-  z-index: 1;
-  margin-top: 15%;
-  margin-left: 50px;
+ .sidenav {
   background: #fff;
   overflow-x: hidden;
   padding: 8px 0;
   border: 1px solid black;
+  position: relative;
+  margin-top: 15%;
+  margin-left: 50px;
+  transform: translate(5%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 20px;
 }
 
 .sidenav a {
