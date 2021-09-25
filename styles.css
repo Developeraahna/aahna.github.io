@@ -237,6 +237,14 @@ u{
   text-underline-position: under;
   color: #006B66;
   font-weight: bold;}
+u2{
+   -webkit-text-decoration: #FE7C00 solid underline;
+  text-decoration: #FE7C00 2px solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  color: #FE7C00;
+  font-size: 30px;
+  font-weight: bold;}
 
 
 
