@@ -13,18 +13,7 @@ blue{
    color: #2E283F}
 green{
    color: #7BB839}
-.logo2 {
-    font-size: 15px;
-    color: #006B66;
-    font-weight: bold;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin-top: 30px;
-   margin-left: 40px;
-   margin-bottom: 10px;
-  .logo2 {
-    font-size: 15px;
-    color: #006B66;
+ .logo2 {
     font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -33,7 +22,6 @@ green{
    margin-bottom: 10px;
   color: #D0807C;
   font-size: 20px;
-  font-weight: bold;
 }
 }
 
