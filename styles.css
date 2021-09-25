@@ -82,6 +82,13 @@ green{
   text-align: ;
   word-spacing: 8px;
 }
+.main-column li {
+  list-style: circle;
+  margin-left: 1 em;
+  overflow: visible;
+  color: black;
+  z-index: 2;
+}
 .side-column img {
  width: 100%;
 }
