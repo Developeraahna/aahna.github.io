@@ -59,79 +59,6 @@ green{
 }
 
 
-.one-section{
-   width: 100%;
-   position: relative ;
-}
-.side-column {
-  width: 330px;
-   height: 80%;
-  position: relative;
-  margin-top: 0.5%;
-  background: ;
-  overflow: hidden;
-  float: right;
-  margin-left:15px
-}
-.main-column {
-  margin-left: 8px;
-  padding: 0px 10px;
-  text-align: ;
-  word-spacing: 8px;
-}
-.main-column li {
-  list-style: circle;
-  margin-left: 1 em;
-  overflow: visible;
-  color: black;
-  z-index: 2;
-}
-.side-column img {
- width: 100%;
-}
-
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-td {
-  border: 1px solid #D9BEA6;
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: #D9BEA6;
-}
-tr:nth-child(odd) {
-  background-color: #ECD3BD;
-}
-
-
-@media only screen and (max-width: 630px) {
- .main-column {
-  width: 95%;
-  }
- .sidenav {
-  margin-top: 20%;
-  margin-left: 10px;
-  width: 90%;  
-}
- .side-column {
-  float: left;
-  margin-left: 30px;
-}
-}
-@media only screen and (max-width: 500px) {
- .side-column {
-  width: 100%;
-  margin-left: 0px; !important
-}
-}
-
 /*photo gallery*/
 * {
    box-sizing: border-box;
@@ -238,9 +165,89 @@ u2{
   color: #001B55;
   font-size: 20px;
   font-weight: bold;}
+  
+  
+/*sections*/
+.one-section{
+   width: 100%;
+   position: relative ;
+}
+.side-column {
+  width: 330px;
+   height: 80%;
+  position: relative;
+  margin-top: 0.5%;
+  background: ;
+  overflow: hidden;
+  float: right;
+  margin-left:15px
+}
+.main-section, .history-section, .notes-section {
+  margin-left: 8px;
+  padding: 0px 10px;
+  text-align: ;
+  word-spacing: 8px;
+}
+.main-section li {
+  list-style: circle;
+  margin-left: 1 em;
+  overflow: visible;
+  color: black;
+  z-index: 2;
+}
+.side-column img {
+ width: 100%;
+}
+.notes-section{
+   width: 100%;
+  }
 
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td {
+  border: 1px solid #D9BEA6;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #D9BEA6;
+}
+tr:nth-child(odd) {
+  background-color: #ECD3BD;
+}
+
+@media only screen and (max-width: 675px) {
+    .history-section{
+   width: 100%;
+  }
 
 
-
+}
+@media only screen and (max-width: 630px) {
+ .main-section {
+  width: 95%;
+  }
+ .sidenav {
+  margin-top: 20%;
+  margin-left: 28px;
+  width: 90%;  
+}
+ .side-column {
+  float: left;
+  margin-left: 40px;
+  width: 85%;
+}
+}
+@media only screen and (max-width: 500px) {
+ .side-column {
+  width: 100%;
+  margin-left: 0px; !important
+   }
+}
 
