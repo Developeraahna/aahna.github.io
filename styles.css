@@ -244,6 +244,11 @@ tr:nth-child(odd) {
   width: 85%;
 }
 }
+@media only screen and (max-width: 350px) {
+ .sidenav {
+  margin-left: 15px;
+}
+}
 @media only screen and (max-width: 500px) {
  .side-column {
   width: 100%;
