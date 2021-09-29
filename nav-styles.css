@@ -23,9 +23,9 @@
     height: auto;
     background-color: white;
     margin-top: 0%;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0 4px 3px -3px #D3D3D3;
+	   -moz-box-shadow: 0 4px 3px -3px #D3D3D3;
+	        box-shadow: 0 4px 3px -3px #D3D3D3;
 }
 
 .hamburger {
