@@ -255,4 +255,12 @@ tr:nth-child(odd) {
   margin-left: 0px; !important
    }
 }
-
+@media only screen and (min-width: 1440px) {
+   .notes-section{
+   margin-left: 8px;
+  padding: 0px 10px;
+  text-align: ;
+  word-spacing: 8px;
+  }
+}
+   
