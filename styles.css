@@ -247,6 +247,7 @@ tr:nth-child(odd) {
 @media only screen and (max-width: 350px) {
  .sidenav {
   margin-left: 12px;
+  margin-top: 35%;
 }
 }
 @media only screen and (max-width: 500px) {
