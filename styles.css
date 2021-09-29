@@ -246,8 +246,8 @@ tr:nth-child(odd) {
 }
 @media only screen and (max-width: 350px) {
  .sidenav {
-  margin-left: 12px;
-  margin-top: 35%;
+  margin-left: 10px;
+  margin-top: 40%;
 }
 }
 @media only screen and (max-width: 500px) {
@@ -262,6 +262,7 @@ tr:nth-child(odd) {
   padding: 0px 10px;
   text-align: ;
   word-spacing: 8px;
+   width: 50%;
   }
 }
    
