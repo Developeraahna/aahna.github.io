@@ -23,9 +23,9 @@
     height: auto;
     background-color: white;
     margin-top: 0%;
-    -webkit-box-shadow: 0 6px 3px 10px 	#BEBEBE;
-	   -moz-box-shadow: 0 6px 3px 10px #BEBEBE;
-	        box-shadow: 0 6px 3px 10px #BEBEBE;
+        -webkit-box-shadow: 0 6px 4px -3px #BEBEBE;
+	   -moz-box-shadow: 0 6px 4px -3px #BEBEBE;
+	        box-shadow: 0 6px 4px -3px #BEBEBE;
 }
 
 .hamburger {
