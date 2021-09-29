@@ -244,17 +244,16 @@ tr:nth-child(odd) {
   width: 85%;
 }
 }
-@media only screen and (max-width: 400px) {
- .sidenav {
-  margin-left: 15px;
-  margin-top: 40%;
-}
-}
+
 @media only screen and (max-width: 500px) {
  .side-column {
   width: 100%;
   margin-left: 0px; !important
    }
+ .sidenav {
+  margin-left: 15px;
+  margin-top: 40%;
+ }
 }
 @media only screen and (min-width: 1440px) {
    .notes-section{
