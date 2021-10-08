@@ -10,13 +10,17 @@
 </head>
 
 <body>
-<!---navbar--->
+<!---back to top--->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+<!---end--->
 
+
+<!---navbar--->
         <nav class="navbar">
             <div class="logo"><orange>monuments</orange> <blue>of</blue> <green>india</green></div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a class="active">Home</a>
+                    <a class="active_navlink">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Gallery.html">Gallery</a>
@@ -31,29 +35,9 @@
                 <span class="bar"></span>
             </div>
         </nav>
-</header>
+<!---end-navbar--->
 
-<script>
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
-
-
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-</script> 
+ 
 <div class="sidenav">
     
     <a><orange>Contents</orange></a>
@@ -63,20 +47,26 @@ function closeMenu() {
 
 </div>
 
-<!---end-navbar--->
+
 
 <!---Indian Architecture--->
+
 <h1 id="Indian">Indian Architecture</h1>
+<!---content--->
 <div class="sidenav" style="margin-top: 0;">
     
     <a><orange>Contents - Indian Architecture</orange></a>
     <a href="#vhfhjljhg">Konark Sun Temple</a>
     <a href="#dthjivvt">Ellora Caves</a>
-    <a href="">3</a>
-    <a href="">4</a>
+    <a href="#dfcvynh">Elephanta Caves</a>
+    <a href="">Ajanta Caves</a>
+    <a href="#jinijoy">Kanheri Caves</a>
+    <a href="#okdenas37">Mahabodhi Temple Complex </a>
+    <a href="#inducbijd">Khajuraho Group of Monuments</a>
 
 </div>
 
+<!---Konark Sun Temple--->
 <div class="one-section"> 
 
 <div class="logo2" id="vhfhjljhg" >Konark Sun Temple</div>
@@ -156,12 +146,34 @@ function closeMenu() {
 <br>
 </div>
 
-</p>
- 
+<div class="notes-section">
+      <u2>Mystery</u2>
+<p style="margin-right: 10px">
+A part of the Konark temple structure got collapsed or was destroyed in the 17th Century.
+It is believed that the collapsed structure had a 52 ton magnet at the top. It is said that 
+this magnet caused the main statue to levitate in air!  
+</p>    
+
 </div>
+</div>
+<div class="slideshow-container">
+
+  <div class="mySlides1">
+    <img class="slides_img" src="monuments-images/Sungod_chariot.jpeg" style="width:100%">
+    <div class="slide_number">
+      1 / 1
+    </div>
+    <div class="slide_text">
+      Lord Surya on his Chariot
+    </div>
+  </div>
+
 </div>
 
 
+</div>
+
+<!---Ellora Caves--->
 <div class="one-section"> 
 
 <div class="logo2" id="dthjivvt">Ellora Caves</div>
@@ -186,6 +198,14 @@ function closeMenu() {
     <td>Built</td>
     <td>600 to 730 CE</td>
   </tr>
+  <tr>
+    <td>Height</td>
+    <td>32 metres</td>
+  </tr>
+  <tr>
+    <td>No.of caves</td>
+    <td>34</td>
+  </tr>
   
 </table>
 </div>
@@ -209,18 +229,222 @@ function closeMenu() {
   <br><br>
 </div>
 
-<div class="other-section" style="width: 100%">        
-     <div class="headings">The Hindu caves (13–29)</div>
+<!---The Buddhist caves--->
+<div class="other-section" style="width: 100%"> 
+
+<div class="headings" id="hcvbhsd">The Buddhist caves (1–12)</div>
+    <li>These caves are located on the southern side and were built either between 630–700 CE or 600–730 CE.</li>
+    <li>These caves were created between the fifth and eighth centuries, with caves 1–5 in the first phase (400–600) and 6–12 in the later phase (650–750).</li>
+    <li>Eleven out of the twelve Buddhist caves consist of <u>viharas</u> or monasteries with prayer halls: large, multi-storeyed buildings carved into the mountain face, including living quarters, sleeping quarters, kitchens, and other rooms. </li>
+    <li>Caves 5, 10, 11 and 12 are architecturally important Buddhist caves.</li>
+    <li><u>Cave 5</u> is unique among the Ellora caves as it was designed as a hall with a pair of parallel refectory benches in the centre and a Buddha statue in the rear.</li>
+<br>
+<table style="width: 100%; margin-left: -8px;" id="hgfgikp">
+<tr>
+    <td>Cave 5 of Ellora Caves and Cave 11 of the Kanheri Caves, are the only two Buddhist caves in India arranged in such a way.</td>
+</tr>
+</table>
+
+    <li>Caves 1 through 9 are all monasteries while <u>Cave 10, The Vishwakarma Cave</u>, is a major Buddhist prayer hall.</li>
+    <li><u>Caves 11 and 12 are three-storied Mahayana monastery caves</u> with idols, mandalas carved into the walls, and numerous goddesses, and Bodhisattva-related iconography, belonging to Vajrayana Buddhism.</li>
+<br>   
+<div class="headings" style="color:#CCA350">Cave 10: The Vishwakarma Cave</div>   
+<p>  The cave 10 of Ellora Caves is The Visvakarma Cave. It is also known as the <u>Carpenter's Cave</u>, because the rock has been given a finish that has the appearance of wooden beams.
+    <li>Beyond its multi-storeyed entry is a cathedral-like stupa hall also known as <u>chaitya-griha</u> (prayer house).</li>
+    <li>At the heart of this cave is a <u>15-foot statue of Buddha</u> seated in a preaching pose.</li>
+</p>
+    <br>
+   
+<!---end--->
+
+<!---The Hindu caves--->
+<div class="headings">The Hindu caves (13–29)</div>  
     <li>Ravan ki Khai (Cave 13 and 14)
     <li>The Dashavatara (Cave 15)
     <li>The Kailāśa temple (Cave 16) : dedicated to the Hindu god Shiva, carved out of a single rock.<br></li>
-    Other shrines carved from the same rock are dedicated to <u>Ganga, Yamuna, Saraswati, the ten avatars of Vishnu</u>, Vedic gods and goddesses including <u>Indra, Agni, Vayu, Surya and Usha</u>, as well as non-Vedic deities like <u>Ganesha, Ardhanarishvara (half Shiva, half Parvati), Harihara (half Shiva, half Vishnu), Annapurna, Durga</u> and others.
-    <li>Rameshwar temple (Cave 21) : depicting the story of goddess Parvati's pursuit of Shiva
+<p>Other shrines carved from the same rock are dedicated to <u>Ganga, Yamuna, Saraswati, the ten avatars of Vishnu</u>, Vedic gods and goddesses including <u>Indra, Agni, Vayu, Surya and Usha</u>, as well as non-Vedic deities like <u>Ganesha, Ardhanarishvara (half Shiva, half Parvati), Harihara (half Shiva, half Vishnu), Annapurna, Durga</u> and others. </p>   
+   <li>Rameshwar temple (Cave 21) : depicting the story of goddess Parvati's pursuit of Shiva
     <li>Nilkantha (Cave 22)
-    <li>Dhumar Lena (Cave 29) : dedicated to the Hindu god Shiva.
+    <li>Dhumar Lena (Cave 29) : dedicated to the Hindu god Shiva.</li>
+    <br>
+<!---end--->
+
+<!---The Jain caves--->
+<div class="headings">The Jain caves (30–34)</div>
+    <li>Jain caves are smaller than the Buddhist and Hindu caves but nonetheless feature highly detailed carvings.</li>
+    <li>These five caves were actually 23 distinct excavations, over different periods. A 13 of these are in Indra Sabha, 6 in Jagannatha Sabha and rest in the Chhota Kailash.</li>
+    <li>Cave 31</li>
+    <li>The Indra Sabha (Cave 32)</li>
+    <li>The Jagannatha Sabha (Cave 33 & 34) : second-largest Jain cave at Ellora</li>
+<br>
+<div class="headings" style="color:#CCA350">Cave 30: Chotta Kailasha</div>   
+<p>  The Chotta Kailasha, or the little Kailasha, is so named due to the similarity of the carvings to those in the Kailasha temple.
+It features <u>two larger-than-life size</u> reliefs of dancing Indra, one with eight arms and another with twelve, both adorned with ornaments and a crown.
+</p>  
+<br> 
+<table style="width: 100%; margin-left: -8px;">
+<tr>
+    <td>On the hill to the northeast of the main complex of caves is a Jain temple containing a <u>16-foot (4.9 m) 
+    rock-carved image of Lord Parshvanath</u> from the Rashtrakuta period with an inscription dated 1234 A.D. 
+    The well-preserved image is <u>flanked by Dharaıendra and Padmavati</u>. The inscription mentions the site as 
+    <u>Charana Hill</u>, a holy site. It is still in active worship and thus not protected by the ASI. <u>Six hundred 
+    steps</u> must be climbed to reach it. It is managed by a <u>Jain Gurukul</u> in the village.</td>
+</tr>
+</table>
+    
+
+    <br>
+<!---end--->
     
 </div>
 
+<div class="history-section">
+          <u2>History</u2>
+        <p>There is an interesting tale about the Kailasa Temple of Ellora. Mughal King Aurangzeb 
+        who destroyed thousands of Hindu temple, also tried to destroy Kailasa temple. It is said 
+        that 1000 people were sent to destroy the temple in the year 1682. They worked for 3 years 
+        but they could break and disfigure a few statues only. Aurangzeb finally gave up on this 
+        task and realizing that it was impossible to completely destroy the temple as the rock was 
+        simply too hard to demolish, even though artisans used only hammers, chisels and picks to 
+        construct it.
+        </p>
+     
+<br>
+</div>
+
+<div class="notes-section">
+      <u2>Mystery - Kailasa Temple</u2>
+<p style="margin-right: 10px">
+The actual date of construction is unknown. This temple is carved out of only one rock.
+It is impossible to construct the biggest monolithic constructions thousands of 
+years ago without any technology. It is carved from top to bottom. Kailasha Temple has 
+the world’s largest cantilevered rock ceiling which seems just an impossible feat for a temple constructed thousands of years ago.
+It is believed that 400,000 tons of rock had to be removed from the site.
+
+</p>    
+
+</div>
+ <br>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img class="slides_img" src="https://previews.123rf.com/images/darnik/darnik1110/darnik111000003/11016924-kailasanatha-ellora.jpg" style="width:100%">
+    <div class="slide_number">
+      1 / 4
+    </div>
+    <div class="slide_text">
+      Kailash temple : Cave 16
+    </div>
+  </div>
+
+  <div class="mySlides2">
+    <img class="slides_img" src="monuments-images/Ellora_budh_cave5.jpeg" style="width:100%">
+    <div class="slide_number">
+      2 / 4
+    </div>
+    <div class="slide_text">
+ <a href="#hcvbhsd">Cave 5</a> of the Buddhist Caves at ellora
+    </div>
+  </div>
+
+  <div class="mySlides2">
+    <img class="slides_img" src="monuments-images/Ellora_budh_cave10.jpeg" style="width:100%">
+    <div class="slide_number">
+      3 / 4
+    </div>
+    <div class="slide_text">
+ <a href="#hgfgikp">Cave 10</a> : The Vishwakarma Cave</div>
+  </div>
+
+<div class="mySlides2">
+    <img class="slides_img" src="monuments-images/Ellora_jain_cave33,34.jpeg" style="width:100%">
+    <div class="slide_number" style="color:black">
+      3 / 4
+    </div>
+    <div class="slide_text">
+      Cave 33 & 34 : The Vishwakarma Cave</div>
+  </div>
+  
+  <div class="mySlides2">
+    <img class="slides_img" src="monuments-images/Ellora_jain_cave30.jpeg" style="width:100%">
+    <div class="slide_number" style="color:black">
+      4 / 4
+    </div>
+    <div class="slide_text">
+      Cave 30 : The Chotta Kailasha </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+</div>
+
+<!---Elephanta caves--->
+<div class="one-section">
+<div class="logo2" id="dfcvynh">Elephanta caves</div>
+
+<div class="side-by-side">
+<div class="side-column">
+<img src="monuments-images/Elephanta_Caves.jpeg" alt="image failed to load">
+  <table>
+  <tr>
+    <td>Called</td>
+    <td>Gharapuri "The city of caves"</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Elephanta Island, Mumbai Harbour, Maharashtra, India</td>
+  </tr>
+  <tr>
+    <td>Creator</td>
+    <td>King Krishnaraja of the Kalachuri Dynasty</td>
+  </tr>
+  <tr>
+    <td>Built during</td>
+    <td>Mid-6th century</td>
+  </tr>
+  <tr>
+    <td>Dedication</td>
+    <td>Lord Shiva</td>
+  </tr>
+  <tr>
+    <td>No. of Caves</td>
+    <td>5 Hindu caves, 2 Buddhist caves</td>
+  </tr>
+  <tr>
+    <td>UNESCO World Heritage Site</td>
+    <td>1987</td>
+  </tr>
+</table>
+</div>
+
+<div class="main-section">
+  <p> <u2>Introduction</u2> <br>
+   The Elephanta Caves are on the <u>Elephanta island</u> in Mumbai Harbour 10 kilometres 
+   east of Mumbai, in the state of Maharashtra. These Caves consists of <u>five Hindu 
+   caves</u>, a few <u>Buddhist stupa mounds</u> that date back to the 2nd century BCE 
+   and <u>two Buddhist caves with water tanks</u>. The Elephanta Caves contain rock cut 
+   stone sculptures, mostly in high relief, that show syncretism of Hindu and Buddhist 
+   ideas and iconography. The caves are cut from solid <u>basalt</u> rock. Except for 
+   a few exceptions, much of the artwork is defaced and damaged. The main cave <u>(Cave 1, 
+   or the Great Cave)</u> was a Hindu place of worship until the Portuguese arrived, 
+   whereupon the island ceased to be an active place of worship. <br>
+   The earliest attempts to prevent further damage to the caves were started by British 
+   India officials in 1909. The monuments were restored in the 1970s. In 1987, the restored 
+   Elephanta Caves were designated a UNESCO World Heritage Site. It is currently 
+   maintained by the Archaeological Survey of India (ASI).
+  <br><br>
+</div>
+
+<div class="other-section" style="width: 100%"> 
+<div class="headings">Cave 1 : Main, Great Cave</div>
+  <p>The main cave, also called Cave 1, Grand Cave or the Great Cave, is 39.63 
+  metres (130.0 ft) square in plan with a hall (mandapa). </p>
+
+</div>
+<br>
 <div class="notes-section">
           <u2>Notes</u2>
 
@@ -240,11 +464,415 @@ function closeMenu() {
 </div>
 </div>
 
+<!---Kanheri Caves--->
+<div class="one-section"> 
 
-<!---END--->
+<div class="logo2" id="jinijoy">Kanheri Caves</div>
+
+<div class="side-by-side">
+<div class="side-column">
+<img src="monuments-images/Kanheri_Caves.jpeg" alt="image failed to load">
+  <table>
+  <tr>
+    <td>Location</td>
+    <td>Sanjay Gandhi National Park, Mumbai</td>
+  </tr>
+  <tr>
+    <td>No. of Caves</td>
+    <td>109</td>
+  </tr>
+</table>
+</div>
+
+<div class="main-section">
+  <p> <u2>Introduction</u2> <br>
+   The Kanheri Caves are a cave complex consisting of <u>109 caves</u>. It is located 
+   in the <u>Sanjay Gandhi National Park</u>, on the former island of Salsette in the western outskirts of Mumbai, India.
+   Kanheri comes from the Sanskrit word <u>Krishnagiri</u>, which means black mountain.
+   The site is on a hillside, and has rock-cut steps. Most of the caves were Buddhist 
+   viharas, meant for living, studying, and meditating. The larger caves, which 
+   functioned as chaityas, or halls for congregational worship, are lined with 
+   intricately carved Buddhist sculptures, reliefs, pillars and rock-cut stupas.
+   <br>
+   Kanheri, credited with the largest number of cave excavations on a single hill, is a ticketed monument protected by the Archaeological Survey of India (ASI).
+  <br><br>
+</div>
+
+<div class="notes-section">
+          <u2>Notes</u2>
+
+    <li>Nearly 51 legible inscriptions and 26 epigraphs are found at Kanheri, which include inscriptions in Brahmi, Devanagari and 3 Pahlavi epigraphs found in Cave 90.</li>
+    <li>Cave No.1 : is a <u>vihara</u>, a Buddhist monastery. The entrance is framed by two large pillars. The cave has two levels, but its construction has never been completed.</li>
+    <li>Cave No.2 : is a long cave</li>
+    
+<br> 
+<div class="headings">Great Chaitya (Cave 3)</div>
+  <p style="margin-right:10px"> This temple is <u>86.5 feet long by 39 feet 10 inches wide from wall to wall</u>, 
+  and has thirty-four pillars round the nave and the dagoba, only 6 on one side and 
+  eleven on the other having bases. The dagoba is a very plain one, nearly 16 feet in diameter.  
+  On the jamb of the entrance to the veranda is an inscription of Yajna Sri Satakarni (circa 170 CE).
+  At the ends of the veranda are two colossal figures of Buddha, about <u>23 feet high</u>, 
+  but these appear to be considerably <u>later than the cave itself</u>.
+</p>
+<br>
+
+<li>Cave 5 and 6 are not caves but water cisterns. </li>
+<br>
+
+<div class="headings">Darbar Cave (Cave 11)</div>
+  <p style="margin-right:10px">To the north-east of the great Chaitya cave is the Darbar Cave (Cave 11).
+  This is the largest cave in the group. It is not a Vihara but kind of Dharmasala or place of assembly.
+  It also has a dining area in it. 
+</p>
+<br>
+
+<li>Cave 34 has unfinished paintings of Buddha on the ceiling of the cave.</li>
+</div>
+<br>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kanheri_Cave1.JPG/520px-Kanheri_Cave1.JPG" style="width:100%">
+     <div class="slide_number">
+      1 / 9
+    </div>
+    <div class="slide_text">
+      Cave 1 of Kanheri Caves
+    </div>
+  </div>
+
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kanheri_Cave2.JPG/520px-Kanheri_Cave2.JPG" style="width:100%">
+     <div class="slide_number">
+      2 / 9
+    </div>
+    <div class="slide_text">
+      Cave 2 : long cave
+    </div>
+  </div>
+
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Kanheri6.jpg" style="width:100%">
+     <div class="slide_number" style="color:black">
+      3 / 9
+    </div>
+    <div class="slide_text">
+      Cave 3 : Great Chaitya
+    </div>
+  </div>
+  
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Kanheri_caves_art.JPG/765px-Kanheri_caves_art.JPG" style="width:100%">
+     <div class="slide_number">
+      4 / 9
+    </div>
+    <div class="slide_text">
+      Cave 4 
+    </div>
+  </div>
+  
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanheri_Darbar_cave_exterior.jpg/700px-Kanheri_Darbar_cave_exterior.jpg" style="width:100%">
+     <div class="slide_number">
+      5 / 9
+    </div>
+    <div class="slide_text">
+      Darbar Cave (Cave 11)
+    </div>
+  </div>
+  
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Kanheri_Caves_-_Hall.JPG/440px-Kanheri_Caves_-_Hall.JPG" style="width:100%">
+     <div class="slide_number">
+      6 / 9
+    </div>
+    <div class="slide_text">
+      Dining hall of Darbar Cave (Cave 11)
+    </div>
+  </div>
+  
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Kanheri-vihara.jpg" style="width:100%">
+     <div class="slide_number">
+      7 / 9
+    </div>
+    <div class="slide_text">
+      Cave 67, a vihara.
+    </div>
+  </div>
+  
+  <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kanheri_cave_78.jpg/440px-Kanheri_cave_78.jpg" style="width:100%">
+     <div class="slide_number" style="color:black">
+      8 / 9
+    </div>
+    <div class="slide_text">
+      Cave 78 has inscription of the time of Gautamiputra Satakarni.
+    </div>
+  </div>
+  
+   <div class="mySlides3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kanheri_Caves_-_Cave_41.JPG/440px-Kanheri_Caves_-_Cave_41.JPG" style="width:100%">
+     <div class="slide_number">
+      9 / 9
+    </div>
+    <div class="slide_text">
+      Cave 41
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+</div>
+
+<!---Mahabodhi Temple Complex--->
+<div class="one-section"> 
+
+<div class="logo2" id="okdenas37">Mahabodhi Temple Complex</div>
+
+<div class="side-by-side">
+<div class="side-column">
+<img src="monuments-images/mahabodhi_temple.jpeg" alt="image failed to load">
+  <table>
+  <tr>
+    <td>Called</td>
+    <td>Great Awakening Temple</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Bodh Gaya, Bihar</td>
+  </tr>
+  <tr>
+    <td>Built by</td>
+    <td>Ashoka</td>
+  </tr>
+  <tr>
+    <td>Built</td>
+    <td>260 BCE</td>
+  </tr>
+  <tr>
+    <td>Area</td>
+    <td>4.86 ha</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>55 metres (180 feet)</td>
+  </tr>
+  <tr>
+    <td>UNESCO World Heritage site</td>
+    <td>2002</td>
+  </tr>
+</table>
+</div>
+
+<div class="main-section">
+  <u2>Introduction</u2> <br>
+    The Mahabodhi Temple also called Great Awakening Temple, is located in Bodh Gaya
+    (96 km (60 mi) from Patna) Bihar on the banks of the Niranjana River. The site contains 
+    a descendant of the Bodhi Tree under which Buddha gained enlightenment, and has been 
+    a major pilgrimage destination for Hindus and Buddhists. <br><br> 
+<div class="headings" id="hcvbhsd">Buddha</div>
+    Around 589 BCE, Siddhartha Gautama, a young prince who saw the suffering 
+    of the world and wanted to end it, reached the forested banks of the Phalgu 
+    river, near the city of Gaya. There he sat in meditation under a peepul tree 
+    This tree was later named as <u>Bodh tree</u>. According to Buddhist scriptures, 
+    after <u>three days and three nights</u>, Siddharta attained enlightenment. 
+    In that location, Mahabodhi Temple was built by Emperor Ashoka in around 260 BCE.
+    The Buddha then spent the succeeding <u>seven weeks at seven different spots</u> in 
+    the vicinity meditating.
+</div>    
+  <br>
+
+<div class="history-section" style="width:100%">        
+    <li>The first week was spent under the Bodhi tree.</li>
+    <li>During the second week, the Buddha remained standing and stared, uninterrupted, at the Bodhi tree.</li>
+    <li>The Buddha is said to have walked back and forth between the location of the Animeshlocha Stupa and the Bodhi tree. <br>
+According to legend, lotus flowers sprung up along this route; it is now called Ratnachakrama or the jewel walk.</li>
+    <li>He spent the fourth week near Ratnagar Chaitya.</li>
+    <li>In the fifth week, he answered the queries of brahmans. </li>
+    <li>He spent the sixth week next to the Lotus pond.</li>
+    <li>He spent the seventh week under the Rajyatna tree.</li>
+<br>
+
+<div class="headings" id="hcvbhsd">Mahabodhi Tree</div>
+The temple was built directly to the east of the Bodhi tree. According to the Jatakas, 
+the navel of the earth lies at this spot, and no other place can support the weight 
+of the Buddha's attainment. Another Buddhist tradition claims that when the world is 
+destroyed at the end of a kalpa, the Bodhimanda is the last spot to disappear, and will 
+be the first to appear when the world emerges into existence again. 
+
+
+</div> 
+
+<br>
+<div class="notes-section">
+          <u2>Notes</u2>
+
+    <li>This temple is one of the four holy sites related to the life of the Lord Buddha. </li>
+<br>
+<table style="width: 100%; margin-left: -8px;" id="hgfgikp">
+<tr>
+    <td>The four holy sites related to the life of the Lord Buddha are: <br>
+        <li>Lumbini: Birthplace</li>
+        <li>Bodh Gaya: attained enlightenment </li>
+        <li>Sarnath: First Teaching place</li>
+        <li>Kushinagar: death place</li> 
+    </td>
+</tr>
+</table>
+    <li>Ashoka’s stone slab purporting to mark the exact position where the Buddha sat 
+is traditionally called the Buddha’s vajrasana (literally “diamond throne” or “thunder seat”).</li>
+<br>
+</div> 
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides4">
+    <img class="slides_img" src="monuments-images/Bodhi-Tree.jpeg" style="width:100%">
+    <div class="slide_number">
+      1 / 1
+    </div>
+    <div class="slide_text">
+      The Bodhi Tree
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!---Khajuraho Group of Monuments--->
+<div class="one-section"> 
+
+<div class="logo2" id="inducbijd">Khajuraho Group of Monuments</div>
+
+<div class="side-by-side">
+<div class="side-column">
+<img src="monuments-images/Khajuraho_Monuments.jpeg" alt="image failed to load">
+  <table>
+  <tr>
+    <td>Style</td>
+    <td>Nagara-style</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Chhatarpur, Madhya Pradesh</td>
+  </tr>
+  <tr>
+    <td>Built by</td>
+    <td>Chandela dynasty</td>
+  </tr>
+  <tr>
+    <td>Built between</td>
+    <td>885 AD and 1050 AD</td>
+  </tr>
+  <tr>
+    <td>No.of Temples</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Area</td>
+    <td>6 sq km</td>
+  </tr>
+</table>
+</div>
+
+<div class="main-section">
+  <u2>Introduction</u2> <br>
+    The Khajuraho group of monuments are a group of Hindu and Jain temples in 
+    Chhatarpur district, Madhya Pradesh, about 175 kilometres southeast of Jhansi.
+    These temples are famous for their nagara-style architectural symbolism. 
+<li>Most Khajuraho temples were built between 885 AD and 1050 AD by the Chandela dynasty.</li>
+<li>By the <u>12th century</u>, Khajuraho temple site had 85 temples spread over 20 sq km. </li>
+<li>Of these, only about <u>25 temples</u> have survived, spread over six square km.</li>
+<li>The <u>Kandariya Mahadeva Temple</u> (the Great God of the Cave) is a famous hindu cave.</li>
+The Khajuraho group of temples were built together but were dedicated to two religions, Hinduism and Jainism.
+<br><br>
+<table style="width: 100%; margin-left: -8px;">
+  <tr>
+    <td>The 10th-century <u>Bhand Deva Temple</u> in Rajasthan was built in the style of the Khajuraho monuments and is often referred to as 'Little Khajuraho'.</td>
+  </tr>
+</table>
+</div>    
+  <br>
+
+<div class="history-section" style="width:100%">        
+    <u2>History</u2><br>
+The Khajuraho temples where built during the rule of Chandela dynasty. They started the building
+process immediately after their control over Bundelkhand region. <br>
+   <li>Most temples were built during the reigns of the Hindu kings Yashovarman and Dhanga.</li>
+   <li>Yashovarman's legacy is best exhibited by the <u>Lakshmana Temple</u>.</li>
+   <li>Dhanga's legacy is best exhibited by the <u>Vishvanatha temple</u>.</li>
+   <li>The largest and currently most famous surviving temple is Kandariya Mahadeva built in the reign of King Vidyadhara.</li>
+   <li>The first documentation of Khajuraho was made in 641 by Xuanzang, a Chinese pilgrim.</li>
+   <li>In 1022 CE, Khajuraho was mentioned by <u>Abu Rihan-al-Biruni</u>, the Persian historian who accompanied Mahmud of Ghazni in his raid of Kalinjar.</li>
+   <li>In 1495 AD, Sikandar Lodi's campaign of temple destruction included Khajuraho.</li>
+   <li>In 1852, <u>F.C. Maisey</u> prepared earliest drawings of the Khajuraho temples.</li>
+The name Khajuraho, or Kharjuravāhaka, is derived from ancient Sanskrit (kharjura, means 
+date palm, and vāhaka, वाहक means "one who carries" or bearer). Local legends state that 
+the temples had two golden date-palm trees as their gate.
+</div> 
+
+<br>
+<div class="notes-section">
+          <u2>Notes</u2>
+
+    
+    
+    
+    
+
+
+
+<br>
+</div> 
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides5">
+    <img class="slides_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Architecture_of_the_Khajuraho_temples.jpg/620px-Architecture_of_the_Khajuraho_temples.jpg" style="width:100%">
+    <div class="slide_number">
+      1 / 1
+    </div>
+    <div class="slide_text">
+      The Bodhi Tree
+    </div>
+  </div>
+
+ <div class="mySlides5">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kanheri_cave_78.jpg/440px-Kanheri_cave_78.jpg" style="width:100%">
+     <div class="slide_number" style="color:black">
+      8 / 9
+    </div>
+    <div class="slide_text">
+      Cave 78 has inscription of the time of Gautamiputra Satakarni.
+    </div>
+  </div>
+  
+   <div class="mySlides5">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kanheri_Caves_-_Cave_41.JPG/440px-Kanheri_Caves_-_Cave_41.JPG" style="width:100%">
+     <div class="slide_number">
+      9 / 9
+    </div>
+    <div class="slide_text">
+      Cave 41
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+ </div>
+</div>
+<br>
+<!---Indian Architecture - END--->
+
+
 
 <!---Mughal Architecture--->
+
 <h1 id="Mughal">Mughal Architecture</h1>
+<!---content--->
 <div class="sidenav" style="margin-top: 0;">
     
     <a><orange>Contents - Mughal Architecture</orange></a>
@@ -311,9 +939,6 @@ function closeMenu() {
 </div>
 </div>
 
-
-
-
 <div class="one-section"> 
 
 <div class="logo2" id="Bibi ka Maqbara">Bibi ka Maqbara</div>
@@ -369,7 +994,6 @@ function closeMenu() {
 </div>
 </div>
 </div>
-
 
 <div class="one-section"> 
 
@@ -477,11 +1101,12 @@ function closeMenu() {
 </div>
 </div>
 
-</div>
-<!---END--->
+<!---Mughal Architecture - END--->
+
 
 <!---British Monuments--->
 <h1 id="British">British Monuments</h1>
+<!---content--->
 <div class="sidenav" style="margin-top: 0;">
     
     <a><orange>Contents - British Architecture</orange></a>
@@ -491,6 +1116,7 @@ function closeMenu() {
     <a href="">4</a>
 
 </div>
+
 <div class="one-section"> 
 
 <div class="logo2" id="" >Monument name</div>
@@ -527,10 +1153,10 @@ function closeMenu() {
 </div>
 </div>
 
-<!---END--->
+<!---British Monuments - END--->
 
 
-
+<script src="script-monuments.js"></script>
 </body>
 
 </html>
