@@ -18,10 +18,10 @@ green{
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-top: 30px;
-   margin-left: 40px;
-   margin-bottom: 10px;
-  color:#fa5457;
-  font-size: 25px;
+    margin-bottom: 10px;
+    color:#fa5457;
+    font-size: 30px;
+    text-align: center;
 }
 
 
@@ -164,7 +164,7 @@ u{
   font-weight: bold;}
 u2{
   color: #001B55;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;}
   
   
@@ -191,6 +191,7 @@ u2{
 }
 li {
     margin-left: 15px;
+    margin-right: 10px;
     list-style-type: square;
  }
 .side-column img {
@@ -201,9 +202,10 @@ li {
 }
 .headings{
    color: #5fa55a;
-   font-size: 18px;
+   font-size: 20px;
 }
-
+.other-section p{
+  margin-right: 10px;}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -224,6 +226,7 @@ tr:nth-child(odd) {
   background-color: #ECD3BD;
 }
 
+
 @media only screen and (max-width: 675px) {
     .history-section{
    width: 100%;
@@ -232,7 +235,7 @@ tr:nth-child(odd) {
 
 }
 @media only screen and (max-width: 630px) {
- .main-section {
+ .main-section, .other-section {
   width: 95%;
   }
  .sidenav {
@@ -248,7 +251,7 @@ tr:nth-child(odd) {
 }
 
 @media only screen and (max-width: 500px) {
- .side-column {
+ .side-column, .card {
   width: 100%;
   margin-left: 0px; !important
    }
@@ -256,13 +259,4 @@ tr:nth-child(odd) {
   margin-left: 20px;
   margin-top: 25%;
  }
-}
-@media only screen and (min-width: 1440px) {
-   .notes-section{
-   margin-left: 8px;
-  padding: 0px 10px;
-  text-align: ;
-  word-spacing: 8px;
-   width: 50%;
-  }
 }
